@@ -35,7 +35,7 @@ public class Main {
 				
 			} 
 			st.close();
-			/*
+			
 			// 데이터 추가하기
 			System.out.println("\n*** 새 데이터 추가 ***");
 			Statement st1 = con.createStatement();
@@ -49,8 +49,8 @@ public class Main {
 				System.out.println("[Error] 데이터 추가 오류!");
 			}
 			st1.close();
-			*/
-			/*
+			
+			
 			// 데이터 수정
 			System.out.println("\n*** 데이터 수정 ***");
 			Statement st2 = con.createStatement();
@@ -64,8 +64,8 @@ public class Main {
 				System.out.println("[Error] 데이터 수정 오류!");
 			}
 			st2.close();
-			*/
-			/*
+			
+			
 			// 데이터 삭제
 			System.out.println("\n*** Data Delete ***");
 			Statement st3 = con.createStatement();
@@ -78,7 +78,7 @@ public class Main {
 				System.out.println("[Error] 데이터 삭제 오류!");
 			}
 			st3.close();
-			*/
+			
 		} catch (Exception e) {
 			e.printStackTrace(); 
 		} finally {
